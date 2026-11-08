@@ -28,7 +28,6 @@ public class BoundaryEmmenager {
 
 				case 2:
 					int force=0;
-					//TODO a completer
 					System.out.println("Bienvenue druide" + nomVisiteur);
 					StringBuilder question4 = new StringBuilder();
 					question4.append("Quelle est votre force?");
@@ -46,7 +45,6 @@ public class BoundaryEmmenager {
 	}
 
 	private void emmenagerDruide(String nomVisiteur) {
-		//TODO a completer
 		int forceDruide = 0;
 		int effetPotionMin=0;
 		int effetPotionMax=0;
